@@ -78,7 +78,7 @@ main()
 	} 
 	
 	printf("The time quantum for first round is 6.\n"); 
-	tq=3;
+	tq=6;
 	CurT=0;
 	for(process_no=0;RemProc!=0;) 
 	{
@@ -108,7 +108,7 @@ main()
 	x++;
 	if(x==2){
 	process_no=0;
-	tq=6;
+	tq=10;
 	
 	printf("The time quantum for second round is 10. \n");
 	}
